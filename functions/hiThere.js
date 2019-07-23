@@ -4,4 +4,3 @@ exports.handler = (event, content, callback) {
     body: "Hello, World"
     });
 }
-}
