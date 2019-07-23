@@ -1,3 +1,6 @@
 exports.handler = (event, content, callback) {
-  console.log('hi there!')
+  const response = {
+    'hi': 'there'
+  };
+  callback(null, response)
 }
